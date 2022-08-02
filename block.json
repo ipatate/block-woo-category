@@ -1,0 +1,13 @@
+{
+  "apiVersion": 2,
+  "name": "goodmotion/block-woo-category",
+  "title": "Gm Woo Category",
+  "category": "goodmotion-blocks",
+  "icon": "columns",
+  "description": "Block for display woocommerce category",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "gm-woo-category",
+  "editorScript": "file:./build/index.js"
+}

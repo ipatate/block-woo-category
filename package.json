@@ -1,0 +1,27 @@
+{
+  "name": "gm-woo-category",
+  "version": "0.1.0",
+  "description": "Block for display woocommerce category",
+  "author": "The WordPress Contributors",
+  "license": "GPL-2.0-or-later",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "start": "wp-scripts start",
+    "packages-update": "wp-scripts packages-update"
+  },
+  "dependencies": {
+    "@wordpress/block-editor": "^9.6.0",
+    "@wordpress/blocks": "^11.13.0",
+    "@wordpress/i18n": "^4.14.0"
+  },
+  "devDependencies": {
+    "@wordpress/components": "^19.16.0",
+    "@wordpress/data": "^6.14.0",
+    "@wordpress/element": "^4.12.0",
+    "@wordpress/scripts": "^23.6.0"
+  }
+}
